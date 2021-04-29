@@ -1,3 +1,5 @@
+
+<div class="container">
 <table>
     <caption>5. gyakorlat 1. feladat:<br>TÁBLÁZAT</caption>
     <tr>
@@ -31,3 +33,5 @@
         <td>Annie</td>
     </tr>
 </table>
+</div>
+

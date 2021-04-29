@@ -1,6 +1,8 @@
+    <div class="container">
+      <div class="col-md-8">
     <form action = "?oldal=belep" method = "post">
       <fieldset>
-        <legend>Bejlentkezés</legend>
+        <legend>Bejelentkezés</legend>
         <br>
         <input type="text" name="felhasznalo" placeholder="felhasználó" required><br><br>
         <input type="password" name="jelszo" placeholder="jelszó" required><br><br>
@@ -8,7 +10,12 @@
         <br>&nbsp;
       </fieldset>
     </form>
-    <h3>Regisztrálja magát, ha még nem felhasználó!</h2>
+    </div>
+    </div>
+    <div class="container">
+    <h3>Regisztrálja magát, ha még nem felhasználó!</h3>
+    </div>
+    <div class="container"> 
     <form action = "?oldal=regisztral" method = "post">
       <fieldset>
         <legend>Regisztráció</legend>
@@ -21,3 +28,4 @@
         <br>&nbsp;
       </fieldset>
     </form>
+    </div>
