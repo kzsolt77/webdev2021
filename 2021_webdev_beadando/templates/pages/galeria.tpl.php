@@ -35,37 +35,30 @@
     </div>
 </div>
 
-<div class="container">
-    <h3>Feltöltés a galériába:</h3>
-<?php
-    if (!empty($uzenet))
-    {
-        echo '<ul>';
-        foreach($uzenet as $u)
-            echo "<li>$u</li>";
-        echo '</ul>';
-    }
-?>
 </div>
-<div class="row">
+<div class="row container">
     <div class="col-md 4">
     </div>
-    <div class="col-md 4">
-    <form action="feltolt.php" method="post" enctype="multipart/form-data">
-        <fieldset>
-        <label>Első:</label>
-        <input type="file" name="elso" required>
-        <br>
-        <label>Második: </label>
-        <input type="file" name="masodik">
-        <br>
-        <label>Harmadik:</label> 
-        <input type="file" name="harmadik">
-        <br>
-        <input type="submit" name="kuld">
-        </fieldset>
-    </form>  
-    </div>
+        <div class="col-md 4">
+        <h3>Feltöltés a galériába:</h3>
+            <form action="feltolt.php" method="post" enctype="multipart/form-data">
+                <fieldset>
+                <label>Első:</label>
+                <input type="file" name="elso" required>
+                <br>
+                <br>
+                <label>Második: </label>
+                <input type="file" name="masodik">
+                <br>
+                <br>
+                <label>Harmadik:</label> 
+                <input type="file" name="harmadik">
+                <br>
+                <br>
+                <?php if(isset($_SESSION['login'])) { ?><input type="submit" name="kuld"><?php } ?>    
+                </fieldset>
+            </form>  
+        </div>
     <div class="col-md 4">
     </div>
 </div>

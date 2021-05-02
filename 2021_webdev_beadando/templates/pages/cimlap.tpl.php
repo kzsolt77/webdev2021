@@ -12,13 +12,13 @@
     </div>
     <div class="col-md-4">
         <video width="400" controls>
-        <source src="mov_bbb.mp4" type="video/mp4">
-        <source src="mov_bbb.ogg" type="video/ogg">
+        <source src="assets/wind.mov" type="video/mp4">
+        //<source src="mov_bbb.ogg" type="video/ogg">
         Your browser does not support HTML video.
         </video>
             <p>
             Video courtesy of 
-            <a href="https://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.
+            <a href="https://wunderground.com/" target="_blank">Fúj a szél</a>.
             </p>
     </div>
     <hr style="margin: 20px;">

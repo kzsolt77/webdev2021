@@ -3,6 +3,8 @@ CHARACTER SET utf8 COLLATE utf8_general_ci;
 
 USE `labor7`;
 
+CREATE TABLE `labor7`.`bejegyzesek` ( `szoveg` VARCHAR(200) NOT NULL , `nev` VARCHAR(50) NOT NULL , `email` VARCHAR(50) NOT NULL ) ENGINE = InnoDB;
+
 CREATE TABLE `felhasznalok` (
   `id` int(10) unsigned NOT NULL auto_increment,
   `csaladi_nev` varchar(45) NOT NULL default '',

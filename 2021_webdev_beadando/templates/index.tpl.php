@@ -30,9 +30,11 @@
 	</nav>
 	
 	<header class="container">
+		<img src="./images/regram_logo.bmp">
 		<h1><?= $fejlec['cim'] ?></h1>
 		<?php if (isset($fejlec['motto'])) { ?><h2><?= $fejlec['motto'] ?></h2><?php } ?>
 		<?php if(isset($_SESSION['login'])) { ?>Bejelentkezve: <strong><?= $_SESSION['csn']." ".$_SESSION['un']." (".$_SESSION['login'].")" ?></strong><?php } ?>
+		
 	</header>
 	
 	<div class="container d-flex flex-wrap" id="content">

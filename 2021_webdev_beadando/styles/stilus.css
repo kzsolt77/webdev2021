@@ -7,15 +7,23 @@ div p{
 }
 
 header{
+    border-radius: 10px;
     margin-top: 25px;
     margin-bottom: 25px;
+    background-color: #ccc;
+}
+header img {
+    float: right;
+    margin: 20px 10px 0px 10px;
 }
 
 label { 
     display: block; 
 }
 
-
+footer{
+    font-weight: bold;
+}
 
 div#galeria {margin: 0 auto; width: 620px;}
 div.kep { display: inline-block; }
