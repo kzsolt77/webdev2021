@@ -1,11 +1,18 @@
 <?php if(isset($row)) { ?>
     <?php if($row) { ?>
-        <h1>Bejelentkezett:</h1>
-        Azonosító: <strong><?= $row['id'] ?></strong><br><br>
-        Név: <strong><?= $row['csaladi_nev']." ".$row['uto_nev'] ?></strong>
+        <div class="container">
+        <h4>Bejelentkezett:</h4>
+        <br>
+        <p>Azonosító: <strong><?= $row['id'] ?></strong><br><br>
+        Név: <strong><?= $row['csaladi_nev']." ".$row['uto_nev'] ?></strong></p>
+        </div>
+        
     <?php } else { ?>
-        <h1>A bejelentkezés nem sikerült!</h1>
+        <div class="container">
+        <h4>A bejelentkezés nem sikerült!</h4>
+        <br>
         <a href="?oldal=belepes" >Próbálja újra!</a>
+        </div>
     <?php } ?>
 <?php } ?>
 <?php if(isset($errormessage)) { ?>

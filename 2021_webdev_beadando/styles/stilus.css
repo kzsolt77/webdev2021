@@ -5,3 +5,18 @@ form {
 div p{
     text-align: justify;
 }
+
+header{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+label { 
+    display: block; 
+}
+
+
+
+div#galeria {margin: 0 auto; width: 620px;}
+div.kep { display: inline-block; }
+div.kep img { width: 200px; }
